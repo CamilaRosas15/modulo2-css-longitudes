@@ -8,18 +8,25 @@
         /*
         .contenedor{
             background-color: rgba(122,123,123,0.2);
-        }*/
+        }
         .body{
             margin: 0%;
+        }*/
+        *{
+            /*box-sizing: content-box;*/
+            box-sizing: border-box;
+            margin: 0;
+            /*quitar margen por defecto*/
         }
         .uno{
             background-color: red;
-            width: 49%;
-            display: inline-block;
-            height: 100vh;
-            /*width: 250px;
-            /* el display no generan una nueva linea pero i un width y un higdth */
+            padding: 35px;
+            border: 5px solid green;
+            margin: 15px;
+            width: 250px;
+
         }
+        /*
         .dos{
             background-color: green;
             width: 49%;
@@ -33,7 +40,7 @@
         .cuatro{
             background-color: yellow;
             display: block;
-        }
+        }*/
         /*
         body{
             margin: 0%;
@@ -92,9 +99,6 @@
 <body>
     <div class="contenedor">
         <div class="uno">contenido 1</div>
-        <div class="dos">contenido 2</div>
-        <div class="tres">contenido 3</div>
-        <span class="cuatro">contenido 4</span>
     </div>
     <!--
     <div class="forma1">
@@ -107,5 +111,6 @@
     <span class="span2">
         ADIOS MUNDO
     </span>-->
+    <!--CUALES SON LAS REGLAS DE RESETEO??? REVISR EL INTERNET-->
 </body>
 </html>
